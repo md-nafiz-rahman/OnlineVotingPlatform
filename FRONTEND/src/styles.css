@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background: #005A9C;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #005A9C;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+}
+
+form {
+    width: 100%;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="email"], input[type="text"], input[type="date"], input[type="password"], select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+
+.actions {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    font-size: 18px;
+}
+
+.constituency-result {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+.constituency-result strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #005A9C;
+}
+
+.constituency-results h3 {
+    margin-bottom: 0.5rem;
+}
+
+.constituency-results div {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-secondary {
+    background-color: #007bff;
+}
+
+.btn {
+    background-color: #28a745;
+}
+
+.results-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.results-list .constituency {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.results-list .constituency h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.results-list .candidate {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.results-list div {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.outcome-message {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #dff0d8;
+    color: #3c763d;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.qr-scanner-container {
+  max-width: 300px;
+  margin: auto; 
+}
+
+.qr-scanner {
+  width: 100%; 
+  height: auto;
+}
+
+
+#electionControl button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
